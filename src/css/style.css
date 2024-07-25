@@ -1,0 +1,87 @@
+body {
+    background: url('/src/images/bg-desktop.svg');
+    background-size: cover;
+    background-color: var(--violet);
+    font-family: 'Poppins', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+ .cabecalho img {
+    padding: 15px 40px;
+    max-width: 270px;
+    margin-bottom: 40px;
+}
+
+.conteudo {
+    padding: 20px 50px;
+    color: #fff;
+    display: flex;   
+}
+.conteudo .informacao {
+    width: 600px;
+    height: 400px;
+    padding: 50px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo .informacao .titulo {
+    font-size: 41px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.conteudo .informacao .info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.conteudo .informacao .btn-registrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border-radius: 50px;
+    background-color: #fff;
+    padding: 13px 50px;
+    transition: 0.4s ease-in-out;
+}
+
+.conteudo  .btn-registrar:hover {
+    background-color: var(--soft-magenta);
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1355px;
+}
+
+.footer .contact {
+    margin-left: 80px;
+}
+.contact {
+    display: flex; 
+}
+
+.contact i{
+    display: flex;
+    color: #fff;
+    font-size: 19px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 1px #fff solid;
+    margin-right: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer .contact i:hover {
+    background-color: var(--violet);
+    color: var(--soft-magenta);
+}
