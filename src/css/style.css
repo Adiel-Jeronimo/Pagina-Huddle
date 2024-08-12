@@ -4,6 +4,10 @@ body {
     background-color: var(--violet);
     font-family: 'Poppins', sans-serif;
     max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
@@ -16,7 +20,9 @@ body {
 .conteudo {
     padding: 20px 50px;
     color: #fff;
-    display: flex;   
+    display: flex; 
+    align-self: center;
+    
 }
 .conteudo .informacao {
     width: 600px;
@@ -36,6 +42,7 @@ body {
 .conteudo .informacao .info {
     display: flex;
     margin-bottom: 20px;
+    
 }
 
 .conteudo .informacao .btn-registrar {
