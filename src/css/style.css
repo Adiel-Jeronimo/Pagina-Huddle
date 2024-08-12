@@ -54,20 +54,18 @@ body {
     color: #fff;
 }
 
-.footer {
+.contact{
     display: flex;
     justify-content: flex-end;
     max-width: 1355px;
-}
-
-.footer .contact {
     margin-left: 80px;
 }
-.contact {
-    display: flex; 
+
+.contact ul {
+    display: flex;
 }
 
-.contact i{
+.contact ul li a{
     display: flex;
     color: #fff;
     font-size: 19px;
@@ -81,7 +79,8 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-.footer .contact i:hover {
+.contact ul li a:hover {
     background-color: var(--violet);
     color: var(--soft-magenta);
+    border: 1px var(--soft-magenta) solid;
 }
